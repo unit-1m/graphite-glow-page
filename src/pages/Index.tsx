@@ -1,11 +1,43 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Github, Twitter, Linkedin, Mail } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background flex items-center justify-center">
+      <div className="text-center space-y-8">
+        <h1 className="text-6xl font-light text-foreground tracking-wide">
+          TITLE
+        </h1>
+        
+        <div className="flex items-center justify-center space-x-6 pt-8">
+          <a 
+            href="#" 
+            className="p-3 border border-border rounded-sm hover:bg-accent transition-colors duration-200"
+            aria-label="GitHub"
+          >
+            <Github className="w-5 h-5 text-foreground" strokeWidth={1} />
+          </a>
+          <a 
+            href="#" 
+            className="p-3 border border-border rounded-sm hover:bg-accent transition-colors duration-200"
+            aria-label="Twitter"
+          >
+            <Twitter className="w-5 h-5 text-foreground" strokeWidth={1} />
+          </a>
+          <a 
+            href="#" 
+            className="p-3 border border-border rounded-sm hover:bg-accent transition-colors duration-200"
+            aria-label="LinkedIn"
+          >
+            <Linkedin className="w-5 h-5 text-foreground" strokeWidth={1} />
+          </a>
+          <a 
+            href="#" 
+            className="p-3 border border-border rounded-sm hover:bg-accent transition-colors duration-200"
+            aria-label="Email"
+          >
+            <Mail className="w-5 h-5 text-foreground" strokeWidth={1} />
+          </a>
+        </div>
       </div>
     </div>
   );
