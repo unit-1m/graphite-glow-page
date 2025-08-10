@@ -5,7 +5,7 @@ const Index = () => {
     <div className="min-h-screen bg-background flex items-center justify-center">
       <div className="text-center space-y-8">
         <h1 className="text-6xl font-light text-foreground tracking-wide">
-          TITLE
+          DEMONICK
         </h1>
         
         <div className="flex items-center justify-center space-x-6 pt-8">
